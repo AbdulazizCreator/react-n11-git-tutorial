@@ -1,2 +1,12 @@
 @import "common.css";
 
+h1 {
+  font-size: 60px;
+  color: red;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  color: green;
+}
