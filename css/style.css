@@ -10,3 +10,32 @@ p {
   font-size: 30px;
   color: green;
 }
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  text-align: center;
+  flex-grow: 1;
+  box-shadow: 0px 0px 5px 5px black;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.card:hover {
+  background-color: blue;
+}
+
+.card:hover path {
+  fill: white;
+}
+
+.card:hover h2 {
+  color: white;
+}
